@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap");
+
+
+:root {
+  font-family:
+    "DM Sans",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: #17201c;
+
+  background: #f6f8f7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --font-display:
+    "Manrope",
+    sans-serif;
+
+  --background: #f6f8f7;
+
+  --surface: #ffffff;
+
+  --surface-soft: #f0f5f2;
+
+  --border: #e1e8e4;
+
+  --text: #17201c;
+
+  --muted: #6e7b75;
+
+  --green: #287a5b;
+
+  --green-dark: #1e6047;
+
+  --green-soft: #e6f3ed;
+
+  --yellow: #a96f16;
+
+  --yellow-soft: #fff4df;
+
+  --red: #b84040;
+
+  --red-soft: #fdecec;
+
+  --blue: #416f91;
+
+  --blue-soft: #eaf2f7;
+
+  --shadow:
+    0 8px 30px
+    rgba(27, 48, 39, 0.06);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  min-width: 320px;
+}
+
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(220, 238, 229, 0.45),
+      transparent 30%
+    ),
+    var(--background);
+
+  color: var(--text);
+}
+
+
+button,
+select {
+  font: inherit;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+::selection {
+  background: #cce6da;
+}
